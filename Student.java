@@ -9,12 +9,25 @@ public class Student {
         this.marks = marks;
     }
 
-    public int getId() { return id; }
-    public String getName() { return name; }
-    public double getMarks() { return marks; }
+    public int getId() {
+        return id;
+    }
 
-    public void setName(String name) { this.name = name; }
-    public void setMarks(double marks) { this.marks = marks; }
+    public String getName() {
+        return name;
+    }
+
+    public double getMarks() {
+        return marks;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setMarks(double marks) {
+        this.marks = marks;
+    }
 
     @Override
     public String toString() {
